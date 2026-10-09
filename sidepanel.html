@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light" />
+    <title>ReturnPoint</title>
+  </head>
+  <body>
+    <div class="shell">
+      <header class="app-header">
+        <div class="brand-mark" aria-hidden="true">↩</div>
+        <div><h1>ReturnPoint</h1><p>Pick up where you left off.</p></div>
+      </header>
+      <div id="notification" class="notification" role="status" aria-live="polite" hidden></div>
+      <main id="app" aria-busy="true"><p class="loading">Opening your library…</p></main>
+      <footer><span class="privacy-dot" aria-hidden="true"></span> Saved on this device. Just for you.</footer>
+    </div>
+    <script type="module" src="/src/sidepanel.ts"></script>
+  </body>
+</html>

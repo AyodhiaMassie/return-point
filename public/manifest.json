@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "ReturnPoint",
+  "version": "1.0.0",
+  "description": "Save your place, leave a note, and return to reading in one click. Everything stays on your device.",
+  "minimum_chrome_version": "116",
+  "permissions": ["sidePanel", "storage", "tabs", "scripting"],
+  "optional_host_permissions": ["http://*/*", "https://*/*"],
+  "background": { "service_worker": "background.js", "type": "module" },
+  "side_panel": { "default_path": "sidepanel.html" },
+  "action": { "default_title": "Open ReturnPoint" },
+  "incognito": "not_allowed",
+  "content_security_policy": { "extension_pages": "script-src 'self'; object-src 'none'" }
+}
