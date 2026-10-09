@@ -1,0 +1,8 @@
+node_modules/
+.npm-cache/
+dist/
+coverage/
+.browser-test/
+*.log
+.DS_Store
+desktop.ini
