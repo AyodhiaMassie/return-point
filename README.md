@@ -1,7 +1,5 @@
 # ReturnPoint
 
-**Pick up where you left off.**
-
 ReturnPoint is a Chrome extension for saving a webpage's reading position and an optional note. Click **Resume** once to open the page in a new tab, return to approximately the saved position, and view your note in the side panel.
 
 Saved URLs, positions, and notes stay in your browser profile. No account or backend is required.
